@@ -10,5 +10,6 @@ resource "azurerm_resource_group" "myrg" {
 resource "azurerm_resource_group" "RGDemo" {
   name = var.RG2_name
   location = var.RG2_location
+  tags = local.tags
   
 }
