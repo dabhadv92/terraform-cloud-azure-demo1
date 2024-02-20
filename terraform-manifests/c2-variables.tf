@@ -67,8 +67,8 @@ variable "RG2_location" {
 
 variable "tags" {
   type = object({
-    Owner = Vivek
-    Environment = Dev
+    Owner = "Vivek"
+    Environment = "Dev"
   }) 
   }
   
