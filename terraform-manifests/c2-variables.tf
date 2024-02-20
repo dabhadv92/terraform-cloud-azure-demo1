@@ -57,12 +57,12 @@ variable "virtual_machine_name" {
 ##FOR RG2
 variable "RG2_name" {
   type = string
-  
+  default= "RG2Demo"
 }
 
 variable "RG2_location" {
   type = string
-  
+  default = "South India"
 }
 
 
