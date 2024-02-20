@@ -66,10 +66,8 @@ variable "RG2_location" {
 }
 
 variable "tags" {
-  type = object({
-    Owner = "Vivek"
-    Environment = "Dev"
-  }) 
+  type = map(string)
+
   }
   
 
