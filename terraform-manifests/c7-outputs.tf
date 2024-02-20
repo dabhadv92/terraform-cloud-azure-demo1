@@ -1,6 +1,7 @@
 # 1. Output Values - Resource Group
 
 /*
+
 output "resource_group_id" {
   description = "Resource Group ID"
   # Atrribute Reference

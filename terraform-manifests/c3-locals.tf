@@ -10,6 +10,9 @@ locals {
   nic_name = "${var.business_unit}-${var.environment}-${var.network_interface_name}"
   vm_name = "${var.business_unit}-${var.environment}-${var.virtual_machine_name}"
 
+*/
+
+/*
   # Use-case-2: Common tags to be assigned to all resources
   service_name = "Demo Services"
   owner = "Kalyan Reddy Daida"
