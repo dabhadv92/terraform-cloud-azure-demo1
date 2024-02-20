@@ -1,3 +1,5 @@
+
+/*
 # Input Variables
 # 1. Business Unit Name
 variable "business_unit" {
@@ -50,6 +52,7 @@ variable "virtual_machine_name" {
   description = "Virtual Machine Name"
   type = string 
 }
+*/
 
 ##FOR RG2
 variable "RG2_name" {

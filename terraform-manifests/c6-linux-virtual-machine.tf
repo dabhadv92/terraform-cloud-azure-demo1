@@ -1,4 +1,5 @@
 # Resource: Azure Linux Virtual Machine
+/*
 resource "azurerm_linux_virtual_machine" "mylinuxvm" {
   name                = local.vm_name
   computer_name       = local.vm_name # Hostname of the VM
@@ -25,5 +26,6 @@ resource "azurerm_linux_virtual_machine" "mylinuxvm" {
   custom_data = filebase64("${path.module}/app-scripts/app1-cloud-init.txt")
   tags = local.common_tags 
 }
+*/
 
 
