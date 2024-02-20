@@ -4,3 +4,9 @@ resource "azurerm_resource_group" "myrg" {
   location = var.resoure_group_location
   tags = local.common_tags
 }
+
+resource "azurerm_resource_group" "RGDemo" {
+  name = var.RG2_name
+  location = var.RG2_location
+  
+}

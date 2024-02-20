@@ -51,7 +51,16 @@ variable "virtual_machine_name" {
   type = string 
 }
 
+##FOR RG2
+variable "RG2_name" {
+  type = string
+  
+}
 
+variable "RG2_location" {
+  type = string
+  
+}
 
 
 
