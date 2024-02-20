@@ -66,7 +66,7 @@ variable "RG2_location" {
 }
 
 variable "tags" {
-  type = list(String)
+  type = list(string)
 
   }
   
