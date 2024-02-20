@@ -28,10 +28,11 @@ locals {
 }
 
 */
-
+/*
 locals {
   tags = {
     Owner = Vivek
     Environment = Testing
   }
 }
+*/

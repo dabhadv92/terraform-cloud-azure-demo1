@@ -65,6 +65,14 @@ variable "RG2_location" {
   default = "South India"
 }
 
+variable "tags" {
+  type = object({
+    Owner = Vivek
+    Environment = Dev
+  }) 
+  }
+  
+
 
 
 
