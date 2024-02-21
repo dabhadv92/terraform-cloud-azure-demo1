@@ -72,8 +72,9 @@ variable "tags"{
   }
 }
   
-
-
+variable "VNETDEMO" {
+  type = string
+}
 
 
 

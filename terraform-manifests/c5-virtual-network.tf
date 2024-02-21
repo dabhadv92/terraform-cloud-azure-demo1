@@ -42,3 +42,11 @@ resource "azurerm_network_interface" "myvmnic" {
 }
 
 */
+
+resource "azurerm_virtual_network" "VNetDemo" {
+  name = "var.VNETDEMO"
+  resource_group_name = azurerm_resource_group.RGDemo.name
+  location = azurerm_resource_group.RGDemo.location
+  address_space = [ "192.168.0.0/24" ]
+  
+}
