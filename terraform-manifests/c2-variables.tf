@@ -65,7 +65,12 @@ variable "RG2_location" {
   default = "South India"
 }
 
-variable "tags"{}
+variable "tags"{
+  default = {
+    Owner = "Vivek"
+    environment = "Dev"
+  }
+}
   
 
 
