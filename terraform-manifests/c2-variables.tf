@@ -74,6 +74,7 @@ variable "tags"{
   
 variable "VNETDEMO" {
   type = string
+  default = "Vnet-test"
 }
 
 
