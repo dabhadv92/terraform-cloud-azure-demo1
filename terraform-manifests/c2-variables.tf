@@ -65,10 +65,7 @@ variable "RG2_location" {
   default = "South India"
 }
 
-variable "tags" {
-  type = list(string)
-
-  }
+variable "tags"{}
   
 
 
