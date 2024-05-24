@@ -1,7 +1,7 @@
 
 resource "google_compute_instance" "vm-remote-custom-module" {
     name = var.vm-name
-    machine_type = "e2-standard-4"
+    machine_type = var.vm-type
     allow_stopping_for_update = true
 
     
