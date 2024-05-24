@@ -17,3 +17,8 @@ variable "subnet-ip-cidr-range" {
 variable "vm-name" {
   type = string
 }
+
+variable "vm-type" {
+  type = string
+  
+}
