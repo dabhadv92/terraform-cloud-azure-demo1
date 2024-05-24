@@ -1,2 +1,3 @@
-# terraform-cloud-azure-demo1
-Terraform Cloud Azure Demo1-Udemy(Kalyan Reddy)
+# Terraform-GCP-Repo
+repository for Terraform GCP cloud Demo
+version 1.0.0
