@@ -7,8 +7,8 @@ resource "google_compute_instance" "vm-remote-custom-module" {
     
 
     network_interface {
-      network = google_compute_network.demo-vpc-child.name
-      subnetwork = google_compute_subnetwork.demo-subnet-child.name
+      network = var.vpc-name
+      subnetwork = var.subnet-name
       
 
       /*
